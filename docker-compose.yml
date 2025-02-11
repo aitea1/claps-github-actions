@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Docker/dockerfile
-    container_name: claps-github-actions
+    container_name: clasp-github-actions
     volumes:
-      - ./claps-github-actions/app:/app
+      - ./clasp-github-actions/app:/app
     tty: true
