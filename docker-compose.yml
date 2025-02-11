@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  dir1:
+    build:
+      context: .
+      dockerfile: Docker/dockerfile
+    container_name: claps-github-actions
+    volumes:
+      - ./claps-github-actions/app:/app
+    tty: true
